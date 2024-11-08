@@ -5,15 +5,26 @@
         </h2>
     </x-slot> -->
 
-    <main class="xl:pl-96">
-      <div class="px-4 py-10 sm:px-6 lg:px-8 lg:py-6">
+    <div class="xl:mx-6 xl:px-6 xl:my-6 xl:py-6 border-2 border-red-500">
+        
+    </div>
+
+    <div class="xl:mx-6 xl:px-6 xl:my-6 xl:py-6 border-2 border-red-500">
+        
+        </div>
+
+    <main class="xl:mx-6 xl:px-6 xl:my-6 xl:py-6 border-2 border-red-500">
+      <div class="px-4 py-10 sm:px-6 lg:px-8 lg:py-6 border-2 border-blue-500">
         <!-- Main area -->
+         main-area
+       
+         <br></br>
+         <br></br>
+         <br></br>
+         <br></br>
+         end of main
+         
       </div>
     </main>
-  </div>
-
-  <aside class="fixed bottom-0 left-20 top-16 hidden w-96 overflow-y-auto border-r border-gray-200 px-4 py-6 sm:px-6 lg:px-8 xl:block">
-    <!-- Secondary column (hidden on smaller screens) -->
-  </aside>
-</div>
+  
 </x-app-layout>
