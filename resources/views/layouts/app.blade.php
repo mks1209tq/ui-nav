@@ -12,6 +12,12 @@
         <style>
             [x-cloak] { display: none !important; }
         </style>
+       <!-- Add these in your head section -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+
+        <!-- Add these before closing body tag -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>   
+
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>

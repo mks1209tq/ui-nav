@@ -32,7 +32,7 @@
           </button>
 
           <!-- Separator -->
-          <div class="hidden lg:block lg:h-6 lg:w-px lg:bg-gray-900/10" aria-hidden="true"></div>
+          <!-- <div class="hidden lg:block lg:h-6 lg:w-px lg:bg-gray-900/10" aria-hidden="true"></div> -->
 
           <!-- Profile dropdown -->
           <div class="relative" x-data="{ profileOpen: false }">
@@ -46,7 +46,9 @@
               <span class="sr-only">Open user menu</span>
               <img class="h-8 w-8 rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
               <span class="hidden lg:flex lg:items-center">
-                <span class="ml-4 text-sm/6 font-semibold text-gray-900" aria-hidden="true">Maroof</span>
+                <span class="ml-4 text-sm/6 font-semibold text-gray-900" aria-hidden="true">
+                  {{ Auth::user()->name }}
+                </span>
                 <!-- arrow down -->
                 <svg class="ml-2 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
                   <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />

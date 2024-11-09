@@ -4,7 +4,6 @@
     <nav class="-mb-6 flex flex-wrap justify-center gap-x-12 gap-y-3 text-sm/6" aria-label="Footer">
       <a href="#" class="text-gray-600 hover:text-gray-900">About</a>
       <a href="#" class="text-gray-600 hover:text-gray-900">Blog</a>
-      <a href="#" class="text-gray-600 hover:text-gray-900">Jobs</a>
       <a href="#" class="text-gray-600 hover:text-gray-900">Press</a>
       <a href="#" class="text-gray-600 hover:text-gray-900">Accessibility</a>
       <a href="#" class="text-gray-600 hover:text-gray-900">Partners</a>
