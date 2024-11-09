@@ -8,7 +8,11 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         
-        <!-- Scripts -->
+        <!-- Scripts for Alpine.js to disable flash of content -->
+        <style>
+            [x-cloak] { display: none !important; }
+        </style>
+
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased h-full">

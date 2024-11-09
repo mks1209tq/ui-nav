@@ -5,15 +5,15 @@
         </h2>
     </x-slot> -->
 
-    <div class="xl:mx-6 xl:px-6 xl:my-6 xl:py-6 border-2 border-red-500">
-        
+    <div class="xl:m-3 xl:p-3 flex justify-left border-2 border-red-500">
+        @include('partials.sub-nav')
     </div>
 
-    <div class="xl:mx-6 xl:px-6 xl:my-6 xl:py-6 border-2 border-red-500">
-        
-        </div>
+    <div class="xl:m-3 xl:p-3 border-2 border-red-500">
+        @include('partials.page-heading')
+    </div>
 
-    <main class="xl:mx-6 xl:px-6 xl:my-6 xl:py-6 border-2 border-red-500">
+    <main class="xl:m-3 xl:p-3 border-2 border-red-500">
       <div class="px-4 py-10 sm:px-6 lg:px-8 lg:py-6 border-2 border-blue-500">
         <!-- Main area -->
          main-area
