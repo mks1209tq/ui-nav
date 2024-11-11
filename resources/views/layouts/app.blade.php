@@ -41,7 +41,7 @@
                 {{ $slot }}
                 
                 @include('layouts.app-page-footer')
-
+                @include('layouts.partials.global-notify')
            
     </body>
 </html>
