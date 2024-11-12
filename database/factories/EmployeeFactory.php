@@ -4,16 +4,16 @@ namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
-use App\Models\Applicant;
+use App\Models\Employee;
 
-class ApplicantFactory extends Factory
+class EmployeeFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = Applicant::class;
+    protected $model = Employee::class;
 
     /**
      * Define the model's default state.
@@ -21,7 +21,8 @@ class ApplicantFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'name' => $this->faker->name(),
+            'user_id' => $this->faker->numberBetween(-10000, 10000),
         ];
     }
 }

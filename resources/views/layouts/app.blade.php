@@ -25,6 +25,7 @@
         
             @include('layouts.app-navigation')
             @include('layouts.app-page-header')
+            @include('layouts.app-page-menu')
             
 
             <!-- Page Heading -->
@@ -38,10 +39,10 @@
 
             <!-- Page Content -->
             
-                {{ $slot }}
+            {{ $slot }}
                 
-                @include('layouts.app-page-footer')
-                @include('layouts.partials.global-notify')
+            @include('layouts.app-page-footer')
+            @include('layouts.partials.global-notify')
            
     </body>
 </html>

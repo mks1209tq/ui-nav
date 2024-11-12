@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Applicant extends Model
+class Employee extends Model
 {
     use HasFactory;
 
@@ -14,7 +14,10 @@ class Applicant extends Model
      *
      * @var array
      */
-    protected $fillable = [];
+    protected $fillable = [
+        'name',
+        'user_id',
+    ];
 
     /**
      * The attributes that should be cast to native types.

@@ -1,3 +1,4 @@
+<div class="m-3 p-3 xl:m-6 xl:p-6 flex justify-left border-2 border-red-500">
 <div class="flex gap-4">
 
 <!-- Menu 1 -->
@@ -102,4 +103,5 @@
 <!-- end of menu 3 -->
 
 
+</div>
 </div>
