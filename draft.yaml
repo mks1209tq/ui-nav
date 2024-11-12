@@ -1,5 +1,12 @@
 models:
-  # ...
+  Applicant:
+    name: string:100 nullable
+    email: string:100 nullable index
+    softDeletes
+  
 
 controllers:
-  # ...
+  Applicant:
+    resource
+
+seeders: Applicant

@@ -1,2 +1,18 @@
+created:
+    - app/Http/Controllers/ApplicantController.php
+    - database/factories/ApplicantFactory.php
+    - database/migrations/2024_11_11_112033_create_applicants_table.php
+    - app/Models/Applicant.php
+    - database/seeders/ApplicantSeeder.php
+    - tests/Feature/Http/Controllers/ApplicantControllerTest.php
+    - app/Http/Requests/ApplicantStoreRequest.php
+    - app/Http/Requests/ApplicantUpdateRequest.php
+    - resources/views/applicant/index.blade.php
+    - resources/views/applicant/create.blade.php
+    - resources/views/applicant/show.blade.php
+    - resources/views/applicant/edit.blade.php
+updated:
+    - routes/web.php
 models:
     User: { name: string, email: string, email_verified_at: 'datetime nullable', password: string, remember_token: 'string nullable' }
+    Applicant: { name: 'string:100 nullable', email: 'string:100 nullable index', softdeletes: softDeletes }
