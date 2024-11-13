@@ -1,0 +1,4 @@
+    public function {{ method }}(Request $request): View|RedirectResponse|JsonResponse
+    {
+        {{ body }}
+    }

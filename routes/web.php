@@ -46,11 +46,3 @@ Route::resource('applicants', App\Http\Controllers\ApplicantController::class);
 
 
 
-
-Route::resource('bulletins', App\Http\Controllers\BulletinController::class);
-
-
-Route::resource('bulletins', App\Http\Controllers\BulletinController::class);
-
-
-Route::resource('bulletins', App\Http\Controllers\BulletinController::class);

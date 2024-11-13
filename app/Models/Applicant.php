@@ -14,7 +14,10 @@ class Applicant extends Model
      *
      * @var array
      */
-    protected $fillable = [];
+    protected $fillable = [
+        'name',
+        'email',
+    ];
 
     /**
      * The attributes that should be cast to native types.
@@ -23,5 +26,6 @@ class Applicant extends Model
      */
     protected $casts = [
         'id' => 'integer',
+        
     ];
 }

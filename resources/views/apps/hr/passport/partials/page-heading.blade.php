@@ -23,16 +23,16 @@
         </h2>
         <div class="mt-1 flex flex-col sm:mt-0 sm:flex-row sm:flex-wrap sm:space-x-6">
             <div class="mt-2 flex items-center text-sm text-gray-500">
-                Total records assigned: {{ App\Models\Passport::where('user_id', auth()->user()->id)->count() }}
+                Records Assigned: {{ App\Models\Passport::where('user_id', auth()->user()->id)->count() }}
             </div>
             <div class="mt-2 flex items-center text-sm text-gray-500">
-                Passports Data Entered: {{ App\Models\Passport::where('is_data_entered', true)
+                Passports Entered: {{ App\Models\Passport::where('is_data_entered', true)
                 ->where('user_id', auth()->user()->id)
                 ->count() }}
 
             </div>
             <div class="mt-2 flex items-center text-sm text-gray-500">
-                Passports Data Verified: {{ App\Models\Passport::where('verify_count', '>', 1)
+                Passports Verified: {{ App\Models\Passport::where('verify_count', '>', 1)
                 ->where('user_id', auth()->user()->id)
                 ->count() }}
             </div>
