@@ -20,7 +20,7 @@ class PassportStoreRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'employee_id' => ['required', 'string'],
+            'employee_id' => ['string', 'nullable'],
             'file_name' => ['required', 'string'],
             'is_data_correct' => ['nullable'],
             'is_data_entered' => ['nullable'],

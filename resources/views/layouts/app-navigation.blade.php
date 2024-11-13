@@ -129,7 +129,7 @@
             <span class="sr-only">Dashboard</span>
           </a>
           <div id="tooltip-right" role="tooltip" class="absolute z-[100] invisible inline-block px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-            Tooltip on right
+            Home
             <div class="tooltip-arrow" data-popper-arrow></div>
           </div>  
         </li>

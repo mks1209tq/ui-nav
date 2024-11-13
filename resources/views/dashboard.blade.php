@@ -5,10 +5,6 @@
         </h2>
     </x-slot> -->
 
-    <div class="m-3 p-3 xl:m-6 xl:p-6 border-2 border-red-500">
-        @include('partials.page-heading')
-    </div>
-
     <main class="m-3 p-3 xl:m-6 xl:p-6 border-2 border-red-500">
       <div class="px-4 py-10 sm:px-6 lg:px-8 lg:py-6 border-2 border-blue-500">
         <!-- Main area -->

@@ -21,27 +21,15 @@ Route::middleware('auth')->group(function () {
         return view('apps.hr.passport.dashboard');
     })->middleware(['auth', 'verified'])->name('hr.passport.dashboard');
 
+    Route::get('/hr/pp/data-entry', function () {
+        return view('apps.hr.passport.data-entry.index');
+    })->middleware(['auth', 'verified'])->name('hr.passport.data-entry');
 
-
-
-
+ 
 
 
     
     Route::resource('passports', App\Http\Controllers\PassportController::class);
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 });
 
@@ -57,3 +45,12 @@ Route::resource('applicants', App\Http\Controllers\ApplicantController::class);
 
 
 
+
+
+Route::resource('bulletins', App\Http\Controllers\BulletinController::class);
+
+
+Route::resource('bulletins', App\Http\Controllers\BulletinController::class);
+
+
+Route::resource('bulletins', App\Http\Controllers\BulletinController::class);

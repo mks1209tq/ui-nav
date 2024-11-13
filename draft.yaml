@@ -1,1 +1,12 @@
+models:
+  Bulletin:
+    id: id
+    title: string
+    content: text
+    softDeletes
 
+controllers:
+  Bulletin:
+    resource
+
+seeders: Bulletin
