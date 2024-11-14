@@ -23,9 +23,12 @@ class PassportController extends Controller
         return view('passport.create');
     }
 
-    public function store(Request $request): RedirectResponse
+    public function store(PassportStoreRequest $request): RedirectResponse
     {
+        // dd($request->all());
+
         $passport = Passport::create($request->validated());
+        // dd($passport);
 
         $request->session()->flash('passport.id', $passport->id);
 

@@ -27,10 +27,10 @@ class PassportStoreRequest extends FormRequest
             'passport_expiry_date' => ['nullable', 'date'],
             'visa_expiry_date' => ['nullable', 'date'],
             'user_id' => ['nullable', 'integer'],
-            'is_passport' => ['required'],
-            'is_visa' => ['required'],
-            'is_photo' => ['required'],
-            'is_no_file_uploaded' => ['required'],
+            'is_passport' => ['nullable', ''],
+            'is_visa' => ['nullable', ''],
+            'is_photo' => ['nullable', ''],
+            'is_no_file_uploaded' => ['nullable', ''],
             'issue' => ['nullable', 'string'],
             'verify_count' => ['nullable', 'integer'],
             're_entry' => ['nullable'],
@@ -39,7 +39,7 @@ class PassportStoreRequest extends FormRequest
             'verifier2_id' => ['nullable', 'integer'],
             'verifier1' => ['nullable', 'integer'],
             'verifier2' => ['nullable', 'integer'],
-            'is_issue' => ['required'],
+            'is_issue' => [''],
         ];
     }
 }
